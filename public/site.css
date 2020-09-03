@@ -1,3 +1,25 @@
+body{
+  background-color: pink;
+}
+
 .test {
-  background-color: red;
+  background-color: pink;
+}
+
+nav {
+  background-color: yellow;
+}
+
+#headstyle {
+  color: white;
+}
+
+p {
+background-color: lightblue;
+
+}
+
+form{
+background-color: purple;
+
 }
