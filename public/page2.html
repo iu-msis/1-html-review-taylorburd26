@@ -10,7 +10,7 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">N</a>
+  <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -53,7 +53,7 @@
       <td>$3.26</td>
     </tr>
     <tr>
-      <th scope="row">Title 2</th>
+      <th scope="row">Bloomington's Underground Tech Lab</th>
       <td>Mathew Patterson and Aaron Dixon</td>
       <td>2001</td>
       <td>Dentois</td>
@@ -62,7 +62,7 @@
     </tr>
 
     <tr>
-      <th scope="row">Title 3</th>
+      <th scope="row">HTML For Dummies</th>
       <td>Denise Ruiz</td>
       <td>1998</td>
       <td>Triscity</td>
@@ -70,7 +70,7 @@
       <td>$12.99</td>
     </tr>
     <tr>
-      <th scope="row">Title 4</th>
+      <th scope="row">Hanalei</th>
       <td>Warren Thomas</td>
       <td>1945</td>
       <td>Scot-fax</td>
@@ -80,16 +80,42 @@
   </tbody>
 </table><br>
 <form>
+  <div class="form-row">
+   <div class="form-group col-md-6">
+     <label for="inputEmail4">Book Title</label>
+     <input type="email" class="form-control" id="inputEmail4">
+   </div>
+   <div class="form-group col-md-6">
+     <label for="inputPassword4">Author(s)</label>
+     <input type="password" class="form-control" id="inputPassword4">
+   </div>
+ </div>
+ <div class="form-group">
+   <label for="inputAddress">Year Published</label>
+   <input type="text" class="form-control" id="inputAddress" >
+ </div>
+ <div class="form-group">
+   <label for="inputAddress2">Publisher</label>
+   <input type="text" class="form-control" id="inputAddress2" >
+ </div>
+ <div class="form-row">
+   <div class="form-group col-md-6">
+     <label for="inputCity">Page Count</label>
+     <input type="text" class="form-control" id="inputCity">
+   </div>
+   <div class="form-group col-md-4">
+     <label for="inputState">MSRP</label>
+     <select  id="inputState" class="form-control">
+       <option selected>Choose...</option>
+       <option>...</option>
+     </select>
+   </div><br>
 
-    <p>Add a Book to the List:</p>
-    <div><label for="booktitle">Book Title:</label> <input type="text" name="booktitle" id="booktitle"><br></div>
-    <div><label for="authors">Author(s):</label> <input type="text" name="authors" id="authors"><br></div>
-    <div><label for="yearpub">Year Published:</label> <input type="number" name="yearpub" id="yearpub"><br></div>
-    <div><label for="publisher">Publisher:</label> <input type="text" name="publisher" id="publisher"><br></div>
-    <div><label for="pagecount">Page Count:</label> <input type="number" name="pagecount" id="pagecount"><br></div>
-    <div><label for="msrp">MSRP:</label> <input type="text" name="msrp" id="msrp"><br></div>
 
-    <input type="submit">
+ <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
 
 
 
